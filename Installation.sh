@@ -9,4 +9,6 @@ cd ./javsubs91
 wget https://raw.githubusercontent.com/ddr91s/AnonFiles_downloader/main/main.py &> /dev/null && wget https://raw.githubusercontent.com/ddr91s/AnonFiles_downloader/main/lib.txt &> /dev/null
 python -m pip install -r ./lib.txt &> /dev/null
 rm -r ./lib.txt
-echo done
+echo "==========================================================="
+echo "============================DONE============================"
+echo "==========================================================="
