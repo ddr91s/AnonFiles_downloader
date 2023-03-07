@@ -1,6 +1,9 @@
 mkdir ./javsubs91
 mkdir ./javsubs91/download
-sudo apt instal aria2 -y &> /dev/null
-wget https://raw.githubusercontent.com/ddr91s/AnonFiles_downloader/main/main.py &> /dev/null && wget https://raw.githubusercontent.com/ddr91s/AnonFiles_downloader/main/lib.txt &> /dev/null
+apt install wget curl ca-certificates
+wget -N git.io/aria2.sh &> /dev/null && chmod +x aria2.sh &> /dev/null
+echo 1|./aria2.sh &> /dev/null
+echo 12|./aria2.sh &> /dev/null
 cd ./javsubs91
+wget https://raw.githubusercontent.com/ddr91s/AnonFiles_downloader/main/main.py &> /dev/null && wget https://raw.githubusercontent.com/ddr91s/AnonFiles_downloader/main/lib.txt &> /dev/null
 python -m pip install -r ./lib.txt &> /dev/null
